@@ -3,6 +3,8 @@ from pymongo import MongoClient
 
 # install robomongo or robo3T for Graphical User Interface of MongoDB
 
+# Table, rows and columns in MySQL / Collection, Documents in NoSQL respectively 
+
 #myClient = MongoClient()
 myClient = MongoClient("localhost", 27017)             #Alternate CODE in comments
 #myClient = MongoClient("mongodb://localhost:27017/")
