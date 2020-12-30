@@ -21,3 +21,5 @@ print(Users.count_documents(filter={"date":{"$gt":old_date}}))
 
 print(Users.count_documents(filter={"date" : {"$exists" : True}}))
 print(Users.count_documents(filter={"username" : {"$ne" : "abhishek"}}))
+
+db.users.create_index([("username", pymongo.ASCENDING)])
