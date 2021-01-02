@@ -1,5 +1,7 @@
 # PyMongo
 
+PyMongo is python library used to manipulate MongoDB.
+
 Reference in Points
 
 
