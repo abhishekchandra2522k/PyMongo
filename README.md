@@ -1,6 +1,8 @@
 # PyMongo
 
-<<<<<<< HEAD
+PyMongo is python library used to manipulate MongoDB.
+
+
 - How to start `mongodb` process in linux/ubuntu terminal?
     
     Check your system init by `ps --no-headers -o comm 1`
@@ -9,21 +11,18 @@
     - `sudo systemctl start mongod` 
         
         If you receive an error similar to the following when starting mongod
+        
         `Failed to start mongod.service: Unit mongod.service not found.`
-        Run the following command first `sudo systemctl daemon-reload`
+        
+        Run the following command first 
+        
+        `sudo systemctl daemon-reload`
     
     - Verify `mongodb` has started successfully by using this command `sudo systemctl status mongod`
 
     - For stopping `mongodb` process, use `sudo systemctl stop mongod` command in the terminal.
         
         
-
-=======
-PyMongo is python library used to manipulate MongoDB.
-
-Reference in Points
->>>>>>> 02214e36b543df8fc47d6fc40db8c8fb39e286c3
-
 
 1. <a href = "insert_many.py">Insert Many</a>
 
