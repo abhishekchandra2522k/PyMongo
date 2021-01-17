@@ -1,5 +1,6 @@
 # PyMongo
 
+<<<<<<< HEAD
 - How to start `mongodb` process in linux/ubuntu terminal?
     
     Check your system init by `ps --no-headers -o comm 1`
@@ -17,6 +18,11 @@
         
         
 
+=======
+PyMongo is python library used to manipulate MongoDB.
+
+Reference in Points
+>>>>>>> 02214e36b543df8fc47d6fc40db8c8fb39e286c3
 
 
 1. <a href = "insert_many.py">Insert Many</a>
